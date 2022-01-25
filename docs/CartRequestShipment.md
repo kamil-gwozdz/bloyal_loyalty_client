@@ -1,0 +1,35 @@
+# BloyalLoyaltyClient::CartRequestShipment
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**uid** | **String** |  | [optional] 
+**number** | **String** |  | [optional] 
+**type** | **String** |  | [optional] 
+**address_uid** | **String** |  | [optional] 
+**address_external_id** | **String** |  | [optional] 
+**recipient** | [**PartySummary**](PartySummary.md) |  | [optional] 
+**carrier_uid** | **String** |  | [optional] 
+**carrier_external_id** | **String** |  | [optional] 
+**carrier_code** | **String** |  | [optional] 
+**service_uid** | **String** |  | [optional] 
+**service_external_id** | **String** |  | [optional] 
+**service_code** | **String** |  | [optional] 
+**location_uid** | **String** |  | [optional] 
+**location_external_id** | **String** |  | [optional] 
+**location_code** | **String** |  | [optional] 
+**fulfillment_house** | **String** |  | [optional] 
+**externally_applied_charge** | **BOOLEAN** |  | [optional] 
+**charge** | **Float** |  | [optional] 
+**charge_override** | **Float** |  | [optional] 
+**externally_applied_discount** | **BOOLEAN** |  | [optional] 
+**discount** | **Float** |  | [optional] 
+**discount_reason_code** | **String** |  | [optional] 
+**discount_reason_name** | **String** |  | [optional] 
+**gift_package** | **BOOLEAN** |  | [optional] 
+**gift_comment** | **String** |  | [optional] 
+**estimated_ship_date** | **Object** |  | [optional] 
+**instructions** | **String** |  | [optional] 
+**externally_applied_tax** | **BOOLEAN** |  | [optional] 
+**tax_details** | [**Array&lt;TaxDetail&gt;**](TaxDetail.md) |  | [optional] 
+

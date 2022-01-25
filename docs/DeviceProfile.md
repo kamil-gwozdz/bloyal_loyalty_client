@@ -1,0 +1,35 @@
+# BloyalLoyaltyClient::DeviceProfile
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**uid** | **String** |  | [optional] 
+**code** | **String** |  | [optional] 
+**external_id** | **String** |  | [optional] 
+**default_channel** | [**Channel**](Channel.md) |  | [optional] 
+**default_price_level** | [**PriceLevel**](PriceLevel.md) |  | [optional] 
+**default_state** | [**State**](State.md) |  | [optional] 
+**default_country** | **String** |  | [optional] 
+**default_engagement_type** | [**EngagementType**](EngagementType.md) |  | [optional] 
+**default_customer_type** | [**CustomerType**](CustomerType.md) |  | [optional] 
+**legacy_url** | **String** |  | [optional] 
+**legacy_key** | **String** |  | [optional] 
+**name** | **String** |  | [optional] 
+**store** | [**Store**](Store.md) |  | [optional] 
+**language_code** | **String** |  | [optional] 
+**discount_reasons** | [**Array&lt;Reason&gt;**](Reason.md) |  | [optional] 
+**order_discount_allocation_code** | **String** |  | [optional] 
+**shipping_allocation_code** | **String** |  | [optional] 
+**sales_tax_allocation_code** | **String** |  | [optional] 
+**pos_snippet_settings** | [**POSSnippetSettings**](POSSnippetSettings.md) |  | [optional] 
+**device_connector_profile** | [**DeviceConnectorProfile**](DeviceConnectorProfile.md) |  | [optional] 
+**settings** | [**Hash&lt;String, DeviceSetting&gt;**](DeviceSetting.md) |  | [optional] 
+**capabilities** | [**Hash&lt;String, DeviceProfileCapability&gt;**](DeviceProfileCapability.md) |  | [optional] 
+**capability_ordered_lists** | [**Hash&lt;String, DeviceProfileCapabilityOrderedList&gt;**](DeviceProfileCapabilityOrderedList.md) |  | [optional] 
+**capability_dictionaries** | [**Hash&lt;String, DeviceProfileCapabilityDictionary&gt;**](DeviceProfileCapabilityDictionary.md) |  | [optional] 
+**permissions** | [**Hash&lt;String, DeviceProfilePermission&gt;**](DeviceProfilePermission.md) |  | [optional] 
+**permission_levels** | [**Hash&lt;String, DeviceProfilePermissionLevel&gt;**](DeviceProfilePermissionLevel.md) |  | [optional] 
+**customer_custom_fields** | [**Array&lt;CustomFieldDefinition&gt;**](CustomFieldDefinition.md) |  | [optional] 
+**club_membership_custom_fields** | [**Array&lt;CustomFieldDefinition&gt;**](CustomFieldDefinition.md) |  | [optional] 
+**order_custom_fields** | [**Array&lt;CustomFieldDefinition&gt;**](CustomFieldDefinition.md) |  | [optional] 
+

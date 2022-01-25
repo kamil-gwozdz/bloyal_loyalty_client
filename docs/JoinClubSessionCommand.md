@@ -1,0 +1,36 @@
+# BloyalLoyaltyClient::JoinClubSessionCommand
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**membership_uid** | **String** |  | [optional] 
+**club_uid** | **String** |  | [optional] 
+**customer_uid** | **String** |  | [optional] 
+**sponsor_uid** | **String** |  | [optional] 
+**referral_uid** | **String** |  | [optional] 
+**payment** | [**ClubMembershipPayment**](ClubMembershipPayment.md) |  | [optional] 
+**fulfillment** | [**ClubMembershipFulfillment**](ClubMembershipFulfillment.md) |  | [optional] 
+**auto_billing_day** | **Integer** |  | [optional] 
+**auto_billing_start_date** | **DateTime** |  | [optional] 
+**product_preference_type** | **String** |  | [optional] 
+**product_preferences** | [**Array&lt;ProductPreference&gt;**](ProductPreference.md) |  | [optional] 
+**custom_code1** | **String** |  | [optional] 
+**custom_code2** | **String** |  | [optional] 
+**custom_code3** | **String** |  | [optional] 
+**custom_code4** | **String** |  | [optional] 
+**custom_code5** | **String** |  | [optional] 
+**custom_code6** | **String** |  | [optional] 
+**custom_code7** | **String** |  | [optional] 
+**custom_code8** | **String** |  | [optional] 
+**custom_fields** | **Object** |  | [optional] 
+**device_uid** | **String** |  | [optional] 
+**store_code** | **String** |  | [optional] 
+**device_code** | **String** |  | [optional] 
+**cashier_uid** | **String** |  | [optional] 
+**cashier_code** | **String** |  | [optional] 
+**cashier_external_id** | **String** |  | [optional] 
+**uid** | **String** |  | [optional] 
+**reference_number** | **String** |  | [optional] 
+**system_uid** | **String** |  | [optional] 
+**connector_uid** | **String** |  | [optional] 
+
